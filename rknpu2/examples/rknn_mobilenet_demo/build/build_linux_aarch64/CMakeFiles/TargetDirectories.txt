@@ -1,0 +1,7 @@
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/install/strip.dir
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/install/local.dir
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/edit_cache.dir
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/install.dir
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/list_install_components.dir
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/rebuild_cache.dir
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/rknn_mobilenet_demo.dir

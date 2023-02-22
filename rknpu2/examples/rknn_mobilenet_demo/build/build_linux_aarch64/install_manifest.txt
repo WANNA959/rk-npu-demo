@@ -1,0 +1,6 @@
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/./rknn_mobilenet_demo
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/.//model/cat_224x224.jpg
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/.//model/dog_224x224.jpg
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/.//model/RK3588/mobilenet_v1.rknn
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/.//model/RK356X/mobilenet_v1.rknn
+/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/install/rknn_mobilenet_demo_Linux/lib/librknnrt.so

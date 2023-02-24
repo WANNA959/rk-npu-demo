@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/src/main.cc" "/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.o"
+  "/root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/src/main.cc" "/root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../../../runtime/RK3588/Linux/librknn_api/include"
-  "/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/include"
-  "/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/include/opencv"
+  "/root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/include"
+  "/root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/include/opencv"
   )
 
 # Targets to which this target links.

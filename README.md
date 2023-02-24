@@ -14,10 +14,22 @@
         -   apt-get install ffmpeg libsm6 libxext6 -y
         -   apt-get install libprotobuf-dev protobuf-compiler -y
 -   也可以转换后，运行在 3588 npu 上
+    -   注意导出 rknn 模型需要指定 config 参数为 target_platform="rk3588"（默认是导出 356X，否则存在兼容性问题）
+
+```shell
+adb push rknpu2/runtime/RK3588/Linux/rknn_server/aarch64/usr/bin/rknn_server /usr/bin/
+adb push rknpu2/runtime/RK3588/Linux/librknn_api/aarch64/librknnrt.so /usr/lib/
+adb push rknpu2/runtime/RK3588/Linux/librknn_api/aarch64/librknn_api.so /usr/lib/
+
+# 可以使用 "systemctl status rknn_server" 查看rknn_server服务是否处于运行状态
+# 若没有运行，请在板子的串口终端运行rknn_server
+chmod +x /usr/bin/rknn_server
+/usr/bin/rknn_server
+```
 
 > rknn 模型
 
-```
+```shell
 cd ~/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo
 
 # 编译生成linux demo

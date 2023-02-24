@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo
+CMAKE_SOURCE_DIR = /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64
+CMAKE_BINARY_DIR = /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rknn_mobilenet_demo.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/rknn_mobilenet_demo.dir/flags.make
 
 CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.o: CMakeFiles/rknn_mobilenet_demo.dir/flags.make
 CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.o: ../../src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.o"
-	/usr/bin/aarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.o -c /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.o"
+	/usr/bin/aarch64-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.o -c /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/src/main.cc
 
 CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/src/main.cc > CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.i
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/src/main.cc > CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.i
 
 CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/src/main.cc -o CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.s
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/src/main.cc -o CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.s
 
 # Object files for target rknn_mobilenet_demo
 rknn_mobilenet_demo_OBJECTS = \
@@ -80,24 +80,24 @@ rknn_mobilenet_demo_EXTERNAL_OBJECTS =
 rknn_mobilenet_demo: CMakeFiles/rknn_mobilenet_demo.dir/src/main.cc.o
 rknn_mobilenet_demo: CMakeFiles/rknn_mobilenet_demo.dir/build.make
 rknn_mobilenet_demo: ../../../../runtime/RK3588/Linux/librknn_api/aarch64/librknnrt.so
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_calib3d.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_features2d.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgcodecs.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_video.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjpeg-turbo.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibwebp.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibpng.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibtiff.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjasper.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libIlmImf.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libzlib.a
-rknn_mobilenet_demo: /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libtegra_hal.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_calib3d.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_features2d.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgcodecs.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_video.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjpeg-turbo.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibwebp.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibpng.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibtiff.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/liblibjasper.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libIlmImf.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_imgproc.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/lib/libopencv_core.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libzlib.a
+rknn_mobilenet_demo: /root/py_project/rk-npu-demo/rknpu2/examples/3rdparty/opencv/opencv-linux-aarch64/share/OpenCV/3rdparty/lib/libtegra_hal.a
 rknn_mobilenet_demo: CMakeFiles/rknn_mobilenet_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rknn_mobilenet_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rknn_mobilenet_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rknn_mobilenet_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/rknn_mobilenet_demo.dir/clean:
 .PHONY : CMakeFiles/rknn_mobilenet_demo.dir/clean
 
 CMakeFiles/rknn_mobilenet_demo.dir/depend:
-	cd /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64 /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64 /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/rknn_mobilenet_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64 /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64 /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles/rknn_mobilenet_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rknn_mobilenet_demo.dir/depend
 

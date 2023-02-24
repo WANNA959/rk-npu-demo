@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo
+CMAKE_SOURCE_DIR = /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64
+CMAKE_BINARY_DIR = /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/rknn_mobilenet_demo.dir/clean
 CMakeFiles/rknn_mobilenet_demo.dir/all:
 	$(MAKE) -f CMakeFiles/rknn_mobilenet_demo.dir/build.make CMakeFiles/rknn_mobilenet_demo.dir/depend
 	$(MAKE) -f CMakeFiles/rknn_mobilenet_demo.dir/build.make CMakeFiles/rknn_mobilenet_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles --progress-num=1,2 "Built target rknn_mobilenet_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles --progress-num=1,2 "Built target rknn_mobilenet_demo"
 .PHONY : CMakeFiles/rknn_mobilenet_demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rknn_mobilenet_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rknn_mobilenet_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/py_project/RK_NPU_SDK_1.2.0/release/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/py_project/rk-npu-demo/rknpu2/examples/rknn_mobilenet_demo/build/build_linux_aarch64/CMakeFiles 0
 .PHONY : CMakeFiles/rknn_mobilenet_demo.dir/rule
 
 # Convenience name for target.

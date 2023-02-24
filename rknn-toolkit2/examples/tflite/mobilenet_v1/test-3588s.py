@@ -64,7 +64,8 @@ if __name__ == '__main__':
 
     # Init runtime environment
     print('--> Init runtime environment')
-    ret = rknn.init_runtime(target='rk3588')
+    # 除了返回总时间外，还将返回每一层的耗时情况
+    ret = rknn.init_runtime(target='rk3588', perf_debug=True, eval_mem=True)
     if ret != 0:
         print('Init runtime environment failed!')
         exit(ret)
@@ -73,6 +74,8 @@ if __name__ == '__main__':
     # Inference
     print('--> Running model')
     start = time.time()
+    rknn.eval_perf(inputs=[img], is_print=True)
+    rknn.eval_memory(is_print=True)
     outputs = rknn.inference(inputs=[img])
     finish = time.time()
     np.save('./tflite_mobilenet_v1_0.npy', outputs[0])
